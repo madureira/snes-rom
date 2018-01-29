@@ -12,7 +12,7 @@ This is a try to write a simple game to run in some SNES Emulator.
 
 **2.** Put `wlalink.exe` and `wla683993.exe` in your `C:/Windows/System32` directory;
 
-**3.** Open the Windows Command-line on the project directory and type:
+**3.** Open the Windows Command-line in the project directory and type:
 ```sh
 C:\snes-rom> wla-65816 -vo main.asm main.obj
 ```
