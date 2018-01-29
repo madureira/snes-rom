@@ -8,18 +8,22 @@ This is a try to write a simple game to run in some SNES Emulator.
 
 
 ## Building
-1. Extract the WLA Executables;
-2. Put `wlalink.exe` and `wla683993.exe` in your `C:/Windows/System32` directory;
-3. Open the Windows Command-line on the project directory and type:
+**1.** Extract the WLA Executables;
+
+**2.** Put `wlalink.exe` and `wla683993.exe` in your `C:/Windows/System32` directory;
+
+**3.** Open the Windows Command-line on the project directory and type:
 ```sh
 C:\snes-rom> wla-65816 -vo main.asm main.obj
 ```
 ```sh
 C:\snes-rom> wlalink -vr main.link main.smc
 ```
-4. In your root folder you should now have a `main.smc` file, this is the finished ROM;
-5. Test `main.smc` in a SNES emulator;
-6. If you see a green screen, this works!
+**4.** In your root folder you should now have a `main.smc` file, this is the finished ROM;
+
+**5.** Test `main.smc` in a SNES emulator;
+
+**6.** If you see a green screen, this works!
 
 
 ## Structure
